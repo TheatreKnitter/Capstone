@@ -27,7 +27,7 @@ var showMusic = function(music){
 	template.find('.results').append('<dt>Description:</dt>').append('<dd class="description"></dd>');
 	template.find('.description').text(music.wTeaser);
 	template.find('.results').append('<dt>youTube link:</dt>').append('<dd class="youtube"></dd>');
-	template.find('.youtube').html('<a target="_blank" '+'href=' + music.yUrl + '>Take me to the Video!</a>');
+	template.find('.youtube').html('<a target="_blank" '+'href=https://www.youtube.com/watch?v=' + music.yID + '&feature=player_embedded' + '>Take me to the Video!</a>');
 
 	$(".search").append(template);
 	template.removeClass("templates");
