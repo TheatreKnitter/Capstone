@@ -1,3 +1,50 @@
 .hidden {
 	display: none;
 }
+
+header {
+	background-color: #007F33;
+	text-align: center;
+	position: relative;
+	vertical-align: top;
+	top: 0;
+	height: 100px;
+	width: 100%;
+	color: #4AE80C;
+	text-shadow: 2px 2px grey
+	font-family: 'Cabin', sans-serif;
+}
+
+body {
+	/*background-image: url("http://mediafarmersmarket.com/wp-content/uploads/2016/08/music-colour-splash.jpg");*/
+	background-color: #00CC52;
+	background-repeat: no-repeat;
+	font-family: 'Merriweather, serif';
+}
+
+#name {
+	width: 350px;
+}
+
+.explain {
+	position: relative;
+	top: 100px;
+	text-align: center;
+}
+
+.search {
+	position: relative;
+	top: 155px;
+	left: 75px;
+}
+
+.description {
+	width: 90%
+}
+
+.results {
+	background-color: rgba(76, 255, 148, 0.6);
+	position: relative;
+	width: 80%;
+	font-family: 'Bitter', serif;
+}

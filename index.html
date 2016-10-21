@@ -3,26 +3,26 @@
 <head>
 	<meta charset="utf-8">
 	<title>Discover New music based off of your current tastes and then watch music videos by them!</title>
+	<link href="https://fonts.googleapis.com/css?family=Bitter|Cabin|Merriweather" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="main.css">
 	<link rel="stylesheet" type="text/css" href="normalize.css">
 </head>
-<body>
+
 <header>
-	<h1>Welcome to FindNuMu!  </h1>
+	<h1>Welcome to TunesTree!  </h1>
 </header>
-	<div class="description">
-		
+<body>
+	<div class="explain">
+		<h2>Use what you love to branch out and hopefully discover something new and exciting.
 
-		<h2>We all have music that we enjoy, but how do you find new things?  This app is here to help you.  Simply type in the name of one or more musical artist or group to find 10 other artists/groups similar.
-
-		Enjoy!</h2>
+		</h2>
 	</div>
 	<hr>
 	<div class="search">
-		<h2>Find New Music!</h2>
+		<h2>Find New Music</h2>
 		<h3>Type in the names of one or more musical groups then submit to see your results</h3>
 		<form class="collect">
-			<input type="text" placeholder="e.g The Beatles, The Killers" name="user-favs">
+			<input type="text" id="name" placeholder="e.g The Beatles, The Killers" name="user-favs">
 			<input type="submit" value="Bring me the tunes!">
 		</form>
 
@@ -36,8 +36,9 @@
 			<dd class="artist"></dd>
 			<dt>Description:</dt>
 			<dd class="description"></dd>
+			<!--<a class="description" href="#">hover<span>words</span></a>-->
 			<dt>youTube link:</dt>
-			<dd class="youtube"></dd>
+			<dd class="youtube"></dd> 
 			
 		</dl>
 	
