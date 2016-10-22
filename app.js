@@ -1,3 +1,4 @@
+//call to tastekid api
 var getMusic = function(bands) {
 
 	
@@ -20,6 +21,7 @@ var getMusic = function(bands) {
 	});
 };
 
+//appends page with search result data
 var showMusic = function(music){
 	var template = $('.templates').clone();
 	template.find('.results').append('<dt>Artist:</dt>').append('<dd class="artist"></dd>');
@@ -34,7 +36,7 @@ var showMusic = function(music){
 	template.removeClass("hidden");
 };
 
-
+//sets callback function and allows confirmation of correct call to api
 function logResults(json){
 		console.log(json);
 };
