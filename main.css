@@ -3,22 +3,24 @@
 }
 
 header {
-	background-color: #007F33;
+	background-color: #259b56;
 	text-align: center;
 	position: relative;
-	vertical-align: top;
+	padding-top: 1px;
 	top: 0;
-	height: 100px;
+	height: 135px;
 	width: 100%;
-	color: #4AE80C;
-	text-shadow: 2px 2px grey
+	color: #35c1cc;
+	text-shadow: 2px 2px grey;
 	font-family: 'Cabin', sans-serif;
+	font-size: 155%;
 }
 
+
 body {
-	/*background-image: url("http://mediafarmersmarket.com/wp-content/uploads/2016/08/music-colour-splash.jpg");*/
+	background-image: url("http://mediafarmersmarket.com/wp-content/uploads/2016/08/music-colour-splash.jpg");
 	background-color: #00CC52;
-	background-repeat: no-repeat;
+	background-repeat: repeat-y;
 	font-family: 'Merriweather, serif';
 }
 
@@ -28,14 +30,17 @@ body {
 
 .explain {
 	position: relative;
-	top: 100px;
+	top: 50px;
 	text-align: center;
+	color: #727167;
+	text-shadow: 1px 1px silver;
 }
 
 .search {
 	position: relative;
-	top: 155px;
-	left: 75px;
+	top: 84px;
+	left: 5%;
+	color: #3a3a38;
 }
 
 .description {
@@ -47,4 +52,11 @@ body {
 	position: relative;
 	width: 80%;
 	font-family: 'Bitter', serif;
+	text-shadow: 1px 1px grey;
+	color: black;
+
+}
+
+.artist .description {
+	text-shadow: 2px 2px grey;
 }
